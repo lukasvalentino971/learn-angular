@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+    <div ng-app="" ng-init="kuantitas=1;harga=5">
+
+        Kuantitas: <input type="number" ng-model="kuantitas"><br>
+        Harga:    <input type="number" ng-model="harga"><br>
+        
+        Total harga dalam dollar : {{ kuantitas * harga }}
+        
+        </div>
+
+</body>
+</html>
